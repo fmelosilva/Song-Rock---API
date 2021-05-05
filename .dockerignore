@@ -1,1 +1,4 @@
 pretrained_models
+README.md
+.gitignore
+__pycache__
