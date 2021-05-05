@@ -1,5 +1,8 @@
 Flask==1.1.2
+flask_cors==3.0.10
 spleeter==2.2.2
 auditok==0.2.0
 soundfile==0.10.3.post1
 librosa==0.8.0
+spotipy==2.18.0
+minio==7.0.3

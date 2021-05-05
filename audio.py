@@ -1,14 +1,13 @@
-import librosa
-import soundfile as sf
-
-import numpy as np
-import matplotlib.pyplot as plt
-from pydub import AudioSegment
-import requests
-from spleeter.separator import Separator, Codec
 import tempfile
-import auditok
 from enum import Enum
+
+import auditok
+import librosa
+import numpy as np
+import requests
+import soundfile as sf
+from spleeter.separator import Codec, Separator
+
 import storage
 
 separator = Separator('spleeter:5stems')
